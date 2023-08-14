@@ -2,6 +2,7 @@ import "./style.scss";
 import Intro from "../Intro";
 import Header from "../Header";
 import OrderForm from "../OrderForm";
+import Offers from "../Offers";
 
 const index = () => {
   return (
@@ -9,6 +10,7 @@ const index = () => {
       <Header />
       <main className="mt-5">
         <Intro />
+        <Offers />
         <OrderForm />
       </main>
     </>
