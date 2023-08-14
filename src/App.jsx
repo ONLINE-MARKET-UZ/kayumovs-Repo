@@ -1,8 +1,7 @@
-
 const App = () => {
   return (
     <div>
-      <h1>React starter</h1>
+      <h1>Online-Shop</h1>
     </div>
   );
 };

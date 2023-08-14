@@ -1,11 +1,15 @@
-
+import HeaderTop from "./HeaderTop";
+import Navbar from "./Navbar";
 import "./style.scss";
 const index = () => {
-    return (
-        <header>
-           <h1>Header</h1> 
-        </header>
-    );
+  return (
+    <header>
+      <div className="container mx-auto">
+        <HeaderTop />
+        <Navbar />
+      </div>
+    </header>
+  );
 };
 
 export default index;
