@@ -1,7 +1,8 @@
+import Layout from "./components/Layout";
 const App = () => {
   return (
     <div>
-      <h1>Online-Shop</h1>
+      <Layout />
     </div>
   );
 };
